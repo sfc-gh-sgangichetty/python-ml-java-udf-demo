@@ -1,4 +1,4 @@
-This demo shows how you can use a pure python ML workflow to build a model and then push the model into snowflake as a Java UDF for deployment. You can use this to demonstrate
+This demo shows how you can use a pure python ML workflow to build a model and then push the model into snowflake as a Java UDF for deployment.We also demonstrate simple scoring and multi-step ahead forecasts scoring scenarios with the UDF. All you need to do to replicate the demo are the following steps:
 
 1. The dockerfile on this repo builds on [snowtire](https://github.com/zoharsan/snowtire_v2). Therefore you need snowtire image. Clone the repo & build snowtire docker image as  `docker build --pull -t snowtire .` This will take a couple of minutes.
 
