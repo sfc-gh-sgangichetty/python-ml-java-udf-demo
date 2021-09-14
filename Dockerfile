@@ -1,5 +1,5 @@
 # Start from snowtire
-FROM snowtire:stv2_beta
+FROM snowtire:latest
 # Install FB Prophet
 # SEE https://github.com/facebook/prophet/issues/401 issue below. Pystan < 3 needs to be installed first
 RUN pip install pystan==2.18
